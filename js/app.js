@@ -4,7 +4,7 @@ var swLocation = '/simplePWA/sw.js';
 
 if(navigator.serviceWorker){
 
-    if(url.location('localhost')){
+    if(url.includes('localhost')){
         swLocation = '/sw.js';
     }
     navigator.serviceWorker.register(swLocation);
