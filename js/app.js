@@ -1,5 +1,5 @@
 // service worker
-var url = window.location.url;
+var url = window.location.href;
 var swLocation = '/simplePWA/sw.js';
 
 if(navigator.serviceWorker){
