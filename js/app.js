@@ -1,6 +1,13 @@
 // service worker
+var url = window.location.url;
+var swLocation = '/simplePWA/sw.js';
+
 if(navigator.serviceWorker){
-    navigator.serviceWorker.register('/sw.js');
+
+    if(url.location('localhost')){
+        swLocation = '/sw.js';
+    }
+    navigator.serviceWorker.register(swLocation);
 }
 
 
