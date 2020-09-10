@@ -1,3 +1,3 @@
-# Chat de Héroes
+# Simple PWA
 
-Un cascarón de chat usando jQuery para PWAs
+Una app simple de chat para crear una PWA
